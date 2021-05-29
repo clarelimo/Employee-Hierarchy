@@ -1,0 +1,6 @@
+C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\Employee Hierarchy Project\Employee Hierarchy Project\bin\Debug\Employee Hierarchy Project.dll
+C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\Employee Hierarchy Project\Employee Hierarchy Project\bin\Debug\Employee Hierarchy Project.pdb
+C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\Employee Hierarchy Project\Employee Hierarchy Project\obj\Debug\Employee Hierarchy Project.csprojAssemblyReference.cache
+C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\Employee Hierarchy Project\Employee Hierarchy Project\obj\Debug\Employee Hierarchy Project.csproj.CoreCompileInputs.cache
+C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\Employee Hierarchy Project\Employee Hierarchy Project\obj\Debug\Employee Hierarchy Project.dll
+C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\Employee Hierarchy Project\Employee Hierarchy Project\obj\Debug\Employee Hierarchy Project.pdb
