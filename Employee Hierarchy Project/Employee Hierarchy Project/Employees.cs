@@ -10,13 +10,14 @@ namespace Employee_Hierarchy_Project
     {
         public string employeeId, managerId;
         public int employeeSalary;
-       
+        public int ceo = 0;
+
         public Employees(string[] employeesInfo)
         {
             int n = employeesInfo.Length;
             List<string> managers = new List<string>();
             List<string> employees = new List<string>();
-            int ceo = 0;
+           
       
             for(int i = 1; i<n; i++)
             {

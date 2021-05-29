@@ -25,5 +25,14 @@ namespace Employee_Hierarchy_Tests
             long actualBudget = emp.salaryBudget("Employee1", csv);
             Assert.AreEqual(expectedBudget, actualBudget);
         }
+
+        [TestMethod] 
+        public void NumberOfCeos()
+        {
+            string[] csv = System.IO.File.ReadAllLines(@"C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\csv\EmployeesInfo.csv");
+            Employees emp = new Employees(csv);
+            int ceos = emp.ceo;
+            Assert.AreEqual(1, ceos);
+        }
     }
 }
