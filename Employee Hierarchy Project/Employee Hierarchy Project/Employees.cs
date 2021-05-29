@@ -18,7 +18,6 @@ namespace Employee_Hierarchy_Project
             List<string> managers = new List<string>();
             List<string> employees = new List<string>();
            
-      
             for(int i = 1; i<n; i++)
             {
                 string[] employeesData = employeesInfo[i].Split(',');
@@ -62,6 +61,7 @@ namespace Employee_Hierarchy_Project
                 }
             }
         }
+
         public long salaryBudget(string manager, string[] employeeInfo)
         {
             long sum = 0;
@@ -76,7 +76,6 @@ namespace Employee_Hierarchy_Project
                 {
                     sum += employeeSalary;
                 }
-
             }
             return sum;
         }
