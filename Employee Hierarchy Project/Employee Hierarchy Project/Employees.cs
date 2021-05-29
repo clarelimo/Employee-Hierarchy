@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace Employee_Hierarchy_Project
 {
-    public class Employees: IComparable<Employees>
+    public class Employees
     {
         public string employeeId, managerId;
         public int employeeSalary;
-        
-        public int CompareTo(Employees other)
-        {
-           return string.Compare(this.employeeId, other.employeeId,
-                StringComparison.OrdinalIgnoreCase);
-        }
+       
         public Employees(string[] employeesInfo)
         {
             int n = employeesInfo.Length;
