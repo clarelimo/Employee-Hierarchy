@@ -64,8 +64,9 @@ namespace Employee_Hierarchy_Project
         public long salaryBudget(string manager, string[] employeeInfo)
         {
             long sum = 0;
-            foreach (var emp in employeeInfo)
+            for(int i=1;i<employeeInfo.Length;i++)
             {
+                string[] emp = employeeInfo[i].Split(',');
                 employeeId = emp[0].ToString();
                 managerId = emp[1].ToString();
                 employeeSalary = int.Parse(emp[2].ToString());

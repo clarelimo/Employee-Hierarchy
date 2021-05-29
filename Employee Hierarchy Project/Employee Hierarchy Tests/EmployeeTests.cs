@@ -15,5 +15,15 @@ namespace Employee_Hierarchy_Tests
             int actualSal = 500;
             Assert.AreEqual(actualSal.GetType(), emp.employeeSalary.GetType());
         }
+        
+        [TestMethod]
+        public void validSalayBudget()
+        {           
+            string[] csv = System.IO.File.ReadAllLines(@"C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\csv\EmployeesInfo.csv");
+            Employees emp = new Employees(csv);
+            int expectedBudget = 2800;
+            long actualBudget = emp.salaryBudget("Employee1", csv);
+            Assert.AreEqual(expectedBudget, actualBudget);
+        }
     }
 }
