@@ -17,12 +17,32 @@ namespace Employee_Hierarchy_Tests
         }
         
         [TestMethod]
-        public void validSalayBudget()
+        public void validSalayBudgetEmp1()
         {           
             string[] csv = System.IO.File.ReadAllLines(@"C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\csv\EmployeesInfo.csv");
             Employees emp = new Employees(csv);
             int expectedBudget = 2800;
             long actualBudget = emp.salaryBudget("Employee1", csv);
+            Assert.AreEqual(expectedBudget, actualBudget);
+        }
+
+        [TestMethod]
+        public void validSalayBudgetEmp2()
+        {
+            string[] csv = System.IO.File.ReadAllLines(@"C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\csv\EmployeesInfo.csv");
+            Employees emp = new Employees(csv);
+            int expectedBudget = 1500;
+            long actualBudget = emp.salaryBudget("Employee2", csv);
+            Assert.AreEqual(expectedBudget, actualBudget);
+        }
+
+        [TestMethod]
+        public void validSalayBudgetEmp3()
+        {
+            string[] csv = System.IO.File.ReadAllLines(@"C:\Users\Tech Jargon\Desktop\TechnoBrain\Employee-Hierarchy\csv\EmployeesInfo.csv");
+            Employees emp = new Employees(csv);
+            int expectedBudget = 800;
+            long actualBudget = emp.salaryBudget("Employee3", csv);
             Assert.AreEqual(expectedBudget, actualBudget);
         }
 
